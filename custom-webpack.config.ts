@@ -4,5 +4,5 @@ import { config } from 'dotenv';
 config();
 
 module.exports = {
-  plugins: [new EnvironmentPlugin([])],
+  plugins: [new EnvironmentPlugin(['API_BASE_URL'])],
 };
